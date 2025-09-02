@@ -18,3 +18,13 @@
 // console.log(++myCounter);
 // //console.log(myCounter++);
 // console.log(myCounter);
+
+//es6 obj
+// const name = "Neil";
+// const age = 33;
+// const details = {
+//   name,
+//   age,
+//   job: "unemployed",
+// };
+// console.log(details);
