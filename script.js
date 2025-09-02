@@ -28,3 +28,12 @@
 //   job: "unemployed",
 // };
 // console.log(details);
+
+//var loop prb with iife
+for (var i = 0; i < 3; i++) {
+  (function (j) {
+    setTimeout(() => {
+      console.log(j);
+    }, 100);
+  });
+}
